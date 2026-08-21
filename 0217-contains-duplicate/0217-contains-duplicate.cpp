@@ -8,7 +8,6 @@ public:
         for(auto z:mp){
             if(z.second>1){
                 return true;
-                break;
             }
         }
         return 0;
